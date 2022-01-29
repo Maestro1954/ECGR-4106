@@ -19,7 +19,7 @@ model.eval()
 # Download an example image from the pytorch website
 #https://github.com/pytorch/hub/raw/master/images/dog.jpg dog.jpg
 import urllib
-url, filename = ("https://github.com/Maestro1954/ECGR-4106/blob/main/Cat.jpg?raw=true", "Cat.jpg")
+url, filename = ("https://github.com/Maestro1954/ECGR-4106/blob/main/Homework%200/Problem%201/Falcon.jpg?raw=true", "Falcon.jpg")
 try: urllib.URLopener().retrieve(url, filename)
 except: urllib.request.urlretrieve(url, filename)
 
